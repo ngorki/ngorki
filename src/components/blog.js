@@ -27,7 +27,7 @@ class BlogPost extends Component{
     render(){
         return(
             <div>
-                <h1>{this.title}</h1>
+                <h2>{this.title}</h2>
                 <p>{this.content}</p>
             </div>
         )
@@ -35,8 +35,19 @@ class BlogPost extends Component{
 }
 
 class CreatePost extends Component{
-    constructor(props){}
+    constructor(props){
+        super(props)
+    }
 
+    render(){
+        return(
+            <div>
+                <h1>Create a Post</h1>
+                <input type='text' placeholder="Title"></input>
+                <input type='text' placeholder="Text"></input>
+            </div>
+        )
+    }
 }
 
 export {Blog, CreatePost}
