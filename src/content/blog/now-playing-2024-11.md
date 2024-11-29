@@ -1,0 +1,24 @@
+---
+title: 'Now Playing: November 2024'
+date: '2024-11-28'
+---
+
+This playlist is a mix of some old and new stuff. Imaginal Disk by Magdelena Bay is still a must repeat for me, which you'll see after a new name in my town Doechii. If you haven't listened to Doechii yet, you're missing out on a Kendrick-approved powerhouse added to the list of incredible black women making a name for themseles in rap. Her lyrics are so personal and the music is not afraid to have fun while still referencing some legendary inspiration. DENIAL IS A RIVER has the same powerful body and catchy composition that you might find in Beef FloMix, another favorite of mine, with lyrics that tell a both relatable yet entirely unpredictable story of Doechii's life over the past few years. Her section wraps with her Tyler feature and Sticky, which are honestly the only two songs I've listened to off CHROMAKOPIA.
+
+
+Imaginal Disk is almost all of its glory is up next, missing its interludes. She Looked Like Me! recently really hit me in this part:  
+>"America stole my fate
+>Lo-love and a baby carriage
+>Turned my tongue, changed my name
+>Bang-bang, born unsteady"  
+As a first generation American, there's a lot to resonate with. Mag Bay beautifully encapsulates when its like to lose a sense of place and purpose when you never quite connect to the culture you live in, born unsteady into a land that demands assimilation. It recontextualized the album for me a bit. Originally I found a story of a person who desperately wanted some ideal form of themselves, and undergoes a procedure, inserting the Imaginal Disk, to become exactly that. Now, it makes even more sense when you consider that this disk might provide the subject with that sense of place and purpose they feel they've had taken from them in some way. Rather than just becoming the best version of yourself, you also become the version that America wants you to be. Our ideas of the "best" versions of ourselves, are instead what is best for the powers that be. There's a lot to dig into with this album and if you also just want to head empty bang on like I do 95% of the time, the tunes on this album are just incredible. A otherwordly synthpop rollercoaster with infectious drums that has quickly made Mag Bay my top artist of the year.
+
+
+Sarah Kinsley's Escaper is next. I had the immense pleasure of seeing her live in October and the show had me coming back to her music after a long pause. Her music feels like hope. So much of the lyrics embody difficult stories and emotions, but rather than stew in sadness, they look forward to a future of mutual blossoming, and the tunes feel the exact same way. I also love singing her songs. I'm not a good singer by any stretch, but I find that her music has this playful feel that comes across in the rhythm and melody behind the lyrics and I just find myself having a good time singing it, regardless of how somber the lyrics may be. If you can't tell by now, I'm not exactly a lyric-listener in my music, so very often the music is heavy and I'll sing it with a smile.
+
+
+Next up is some Remi Wolf and Ginger Root. I had a bit Remi phase this summer with the release of Big Ideas and that album is absolutely worth listening to in its entirely, but I found that I wore myself out of it fairly quickly and stuck around with Soup, which IMO is the defining single of the album. Down the Line is another banger I found recently when shuffling my Liked Songs. My god is this song just infectious. The bass kicking, that drum intro to the chorus, and just enough repetition that it'll be stuck in your head all day. Ginger Root has a similar groovy feeling that's just perfect as energetic fall music. Winding down and slightly lowkey, but still something that'll make your head bop.  
+
+The last album you'll find on here is Vampire Weekend's Only God Was Above Us. This is yet another artist my friend Maya beat me to years ago, but I am enamoured. The lyrics are a beautiful reflection of the world today and the music will keep you on your toes throughout the album. Personally, Ice Cream Piano is an inspiration for this website as I'm quite tired of screaming piano. Capricorn reminds me a lot of my sister, who herself is a Capricorn. Connect is literally a mushroom trip, both its in lyrics and music. I don't emotionally resonate with the rest of the album much except Gen-X Cops, but I still enjoy listening to them and will likely unlock their secrets in time. 
+
+Rounding out the list is The Hills By Rachel Chinouriri and Portrait of a Dead Girl by the Last Dinner Party. I very much connect with The Hills, given the message of feeling like you don't belong and the typical post-grad anomie. Portrait of a Dead Girl is a new one for me and another tune listen for me, but a fantastic one at that. Hope you enjoy the ride :D

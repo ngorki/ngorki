@@ -1,0 +1,25 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Site from '../../layouts/site.astro';
+import Spotify from '../../components/spotify.astro';
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map((entry: CollectionEntry<'blog'>) => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+const { entry } = Astro.props;
+type Props = {
+  entry: CollectionEntry<'blog'>;
+};
+const { Content } = await entry.render();
+---
+
+<Site>
+  <article class="prose prose-lg max-w-none flex flex-col gap-8">
+    <h1>{entry.data.title}</h1>
+    <div class="flex flex-col gap-2">
+      <Content />
+    </div>
+  </article>
+</Site>
