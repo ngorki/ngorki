@@ -1,71 +1,46 @@
 ---
-import Site from "../layouts/site.astro"
-import Spotify from "../components/spotify.astro"
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/Button.astro';
+import Hero from '../components/Hero.astro';
+import PostPreview from '../components/PostPreview.astro';
+import ProjectPreview from '../components/ProjectPreview.astro';
+import siteConfig from '../data/site-config';
+import { sortItemsByDateDesc } from '../utils/data-utils';
+
+const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
+const featuredPosts = posts.filter(({ data }) => data.isFeatured);
+
+const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
+const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
-<Site>
-	<h1>WIP</h1>
-	<div class="flex flex-col items-center w-fit">
-		<a class="text-2xl w-fit" href="/post/now-playing-2024-11">Now Playing</a>
-		<Spotify/>
-	</div>
-</Site>
-
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
-</style>
+<BaseLayout description={siteConfig.description} image={siteConfig.image}>
+    <Hero />
+    {
+        featuredProjects?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Projects</h2>
+                {featuredProjects.map((project) => (
+                    <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+                <div class="mt-12 sm:mt-16">
+                    <Button href="/projects">View All Projects</Button>
+                </div>
+            </div>
+        )
+    }
+    {
+        featuredPosts?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Writing</h2>
+                {featuredPosts.map((post) => (
+                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+                <div class="mt-12 sm:mt-16">
+                    <Button href="/blog">View All Posts</Button>
+                </div>
+            </div>
+        )
+    }
+</BaseLayout>

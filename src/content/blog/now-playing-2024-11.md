@@ -1,16 +1,17 @@
 ---
 title: 'Now Playing: November 2024'
-date: '2024-11-28'
+publishDate: '2024-11-28'
 ---
 
 This playlist is a mix of some old and new stuff. Imaginal Disk by Magdelena Bay is still a must repeat for me, which you'll see after a new name in my town Doechii. If you haven't listened to Doechii yet, you're missing out on a Kendrick-approved powerhouse added to the list of incredible black women making a name for themseles in rap. Her lyrics are so personal and the music is not afraid to have fun while still referencing some legendary inspiration. DENIAL IS A RIVER has the same powerful body and catchy composition that you might find in Beef FloMix, another favorite of mine, with lyrics that tell a both relatable yet entirely unpredictable story of Doechii's life over the past few years. Her section wraps with her Tyler feature and Sticky, which are honestly the only two songs I've listened to off CHROMAKOPIA.
 
 
 Imaginal Disk is almost all of its glory is up next, missing its interludes. She Looked Like Me! recently really hit me in this part:  
->"America stole my fate
->Lo-love and a baby carriage
->Turned my tongue, changed my name
->Bang-bang, born unsteady"  
+>America stole my fate  
+>Lo-love and a baby carriage  
+>Turned my tongue, changed my name  
+>Bang-bang, born unsteady  
+
 As a first generation American, there's a lot to resonate with. Mag Bay beautifully encapsulates when its like to lose a sense of place and purpose when you never quite connect to the culture you live in, born unsteady into a land that demands assimilation. It recontextualized the album for me a bit. Originally I found a story of a person who desperately wanted some ideal form of themselves, and undergoes a procedure, inserting the Imaginal Disk, to become exactly that. Now, it makes even more sense when you consider that this disk might provide the subject with that sense of place and purpose they feel they've had taken from them in some way. Rather than just becoming the best version of yourself, you also become the version that America wants you to be. Our ideas of the "best" versions of ourselves, are instead what is best for the powers that be. There's a lot to dig into with this album and if you also just want to head empty bang on like I do 95% of the time, the tunes on this album are just incredible. A otherwordly synthpop rollercoaster with infectious drums that has quickly made Mag Bay my top artist of the year.
 
 

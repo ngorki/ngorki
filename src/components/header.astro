@@ -1,13 +1,18 @@
+---
+import siteConfig from '../data/site-config';
+---
 
-
-<header class="flex justify-center w-full bg-slate-400">
-    <div class="flex flex-row w-4/5 p-4 items-center justify-between">
-        <span>
-            <a href='/' class="font-bold text-4xl">NG</a>
-        </span>
-        <span class="flex flex-row gap-8">
-            <a href="/blog">blog</a>
-            <a href="/now">now</a>
-        </span>
-    </div>
+<header class="w-full max-w-3xl mx-auto mb-12 sm:mb-16">
+    {
+        siteConfig.logo && siteConfig.logo?.src ? (
+            <a href="/">
+                <img src={siteConfig.logo.src} alt={siteConfig.logo.alt || ''} class="max-h-12" />
+            </a>
+        ) : (
+            <a class="font-serif text-2xl leading-tight font-medium text-theme-foreground sm:text-4xl" href="/">
+                {siteConfig.title}
+            </a>
+        )
+    }
+    {siteConfig.subtitle && <p class="text-sm leading-tight mt-1">{siteConfig.subtitle}</p>}
 </header>
